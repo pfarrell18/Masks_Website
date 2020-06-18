@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'My Web Font';
+    src: url(https://fonts.google.com/specimen/Josefin+Sans?sidebar.open&selection.family=Josefin+Sans#standard-styles);
+}
+body {
+    background-color: white;
+}
+
+span{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 11px; 
+    /* font-style: normal; 
+    font-variant: normal; */
+    font-weight: 700; 
+    /* line-height: 26.4px;  */
+    /* padding: 20px;
+    margin: 10px;  */
+    background-color: white;
+}
+
+nav span:hover,
+.maskentry:hover, 
+.login span:hover{
+    text-decoration: underline;
+    text-decoration-color: teal;
+    text-decoration-thickness:100%;
+
+}
+h2 { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+
+h3{
+    color: black;
+    background-color: white
+}
+
+h4{
+    font-style: bold;
+}
+
+h5{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 10px; 
+}
+
+section{
+    background-color:white;
+    margin: 10px;
+    padding: 10px
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.colorful{
+    background-color:rgb(242, 185, 30);
+    padding: 50px 30px;
+    min-width: 700px;
+    position: relative
+}
+
+button{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid rgb(242, 185, 30);
+    border-radius: 10px;
+}
+
+.header{
+    width: 370px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: 0; 
+    left: 280;
+}
+
+header{
+    padding: 0px 0px 200px 0px;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+}
+
+.maskentry img{
+    width: auto;
+    height: 100px;
+    position: relative
+}
+
+.logos{
+    position: absolute;
+    top: 88;
+    left: 90%
+}
+
+.logos img{
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    padding: 7px 0px;
+}
+.maskentry{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom_panel{
+    position: relative;
+}
+
+
+.description {
+
+    min-height: 50px;
+}
+
+.login span{
+    padding: 10px
+
+}
+
+nav span{
+    padding:10px;
+}
