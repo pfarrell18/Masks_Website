@@ -67,7 +67,6 @@ section{
 .colorful{
     background-color:rgb(242, 185, 30);
     padding: 50px 30px;
-    min-width: 700px;
     position: relative
 }
 
@@ -133,11 +132,41 @@ nav{
     min-height: 50px;
 }
 
-.login span{
+.login{
     padding: 10px
 
 }
-
+.login span{
+    padding:0px 10px
+}
 nav span{
     padding:10px;
+}
+
+.toolbar{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width:780px){
+    .header{
+        width: 40%;
+        left: 45%;
+    }
+@media screen and (max-width:584px){
+    nav {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .header{
+        width:40%;
+
+    }
+
+    header{
+        padding:0px 0px 35px 0px
+        
+    }
 }
